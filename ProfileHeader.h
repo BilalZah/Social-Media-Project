@@ -19,7 +19,8 @@ class Profiles {
 	void setBio(string);
 	string getInterests();
 	void setInterests(string);
-
+	char getProfile_Photo();
+	void setProfile_Photo(char);
 
 
 
@@ -34,4 +35,5 @@ private:
 	char password;
 	string Bio;
 	string Interests;
+	char Profile_Photo;
 };
