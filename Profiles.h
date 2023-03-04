@@ -1,9 +1,12 @@
 #pragma once
+
+using namespace std;
+#include<string>
 class Profiles {
 
 	string getName();
 	void setName(string);
-	String getemail_address();
+	string getemail_address();
 	void setemail_address(string);
 	string getUser_name();
 	void setUser_name(string);

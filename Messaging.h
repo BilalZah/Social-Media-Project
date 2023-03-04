@@ -1,4 +1,6 @@
 #pragma once
+using namespace std;
+#include<string>
 class Messaging :public Profiles,public follow_list {
 public:
 	string getcomments();
