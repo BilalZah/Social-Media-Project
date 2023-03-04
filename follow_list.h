@@ -3,8 +3,8 @@ class follow_list: public Profiles, public search_function {
 public:
 	string getaccount();
 	void setaccount(string);
-	int getsubscription();
-	void setsubscription(int);
+	int getsubscription_price();
+	void setsubscription_price(int);
 	string getsubcription();
 	void setsubscription(string); 
 
