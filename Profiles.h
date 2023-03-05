@@ -2,7 +2,7 @@
 
 using namespace std;
 #include<string>
-class Profiles {
+class Profiles: public Posting_Media {
 
 	string getName();
 	void setName(string);
