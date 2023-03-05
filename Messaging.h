@@ -9,6 +9,8 @@ public:
 	void setnumber_of_likes(int);
 	char getlike_button();
 	void setlike_button(char);
+	char getshare();
+	void setshare(char);
 
 
 
@@ -16,4 +18,5 @@ private:
 	string comment;
 	int number_of_likes;
 	char like_button;
+	char share;
 };
