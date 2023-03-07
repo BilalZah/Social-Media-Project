@@ -2,7 +2,11 @@
 
 using namespace std;
 #include<string>
-class Profiles: public Posting_Media {
+class Profiles{
+	
+public:
+	Profiles();
+	~Profiles();
 
 	string getName();
 	void setName(string);
@@ -16,14 +20,14 @@ class Profiles: public Posting_Media {
 	void setdob_month(int);
 	int getdob_year();
 	void setdob_year(int);
-	char getPassword();
-	void setPassword(char);
+	int getPassword();
+	void setPassword(int);
 	string getBio();
 	void setBio(string);
 	string getInterests();
 	void setInterests(string);
-	char getProfile_Photo();
-	void setProfile_Photo(char);
+	string getProfile_Photo();
+	void setProfile_Photo(string);
 
 
 
@@ -35,8 +39,8 @@ private:
 	int dob_day;
 	int dob_month;
 	int dob_year;
-	char password;
+	int password;
 	string Bio;
 	string Interests;
-	char Profile_Photo;
+	string Profile_Photo;
 };

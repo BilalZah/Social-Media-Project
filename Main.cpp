@@ -2,8 +2,8 @@
 
 #include<string>
 #include<iostream>
-#include  "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Profiles.h"
-#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Messaging.h"
+#include  "Profiles.h"
+
 
 
 
