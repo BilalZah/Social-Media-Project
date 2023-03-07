@@ -1,5 +1,5 @@
 
-#include"Profiles"
+#include"Profiles.h"
 using namespace std;
 #include<string>
 Profiles::Profiles() {}
@@ -7,7 +7,7 @@ Profiles::Profiles() {}
 
 Profiles::~Profiles() {}
 string Profiles::getName() { return Name; }
-void Profiles::setName(string name) { Name = name; }
+void Profiles::setName(string name) { this->Name = name; }
 string Profiles::getemail_address() { return email_address; }
 void  Profiles::setemail_address(string email_address) {this->email_address=email_address ; }
 string Profiles::getUser_name() { return User_name; }
