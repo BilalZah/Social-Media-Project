@@ -12,3 +12,5 @@ string Posting_Media::getcomments(){return comments}
 void Posting_Media::setcomments(string comments){this->comments = comments;}
 char Posting_Media::getshare_to_follow_list(return share_to_follow_list){}
 void Posting_Media::setshare_to_follow_list(char share_to_follow_list){this->share_to_follow_list = share_to_follow_list;}
+string Posting_Media::getcaption(){return caption;}
+void Posting_Media::setcaption(string caption){this->caption=caption;}
