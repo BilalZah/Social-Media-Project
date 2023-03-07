@@ -58,9 +58,8 @@ cout << "Continue as a guest ";
 
 
 		}
-	Messaging j;
-	cout << j.getcomments() << endl;
-	j.setcomments("Hi Bilal");
+	
+	
 		
 	}
 

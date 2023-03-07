@@ -3,14 +3,18 @@
 using namespace std;
 class Subscription :public Profiles {
 public:
+	Subscription();
+	~Subscription();
 	string getSortCode();
 	void setSortCode(string);
 	string getBankAccount();
 	void setBankAccount(string);
-	bool withdraw(double amount);
+	//bool withdraw(double);
+	double getbalance();
+	void setbalance(double);
 private:
 	string sortcode;
-	string accountNumber;
+	string bank_account;
 	double balance;
 
 
