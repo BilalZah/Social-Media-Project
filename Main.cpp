@@ -35,15 +35,22 @@ int main() {
 
 		s.setdob_year(2004);
 
-			cout << s.getdob_year();
+			cout << s.getdob_year()<<endl;
 			
 			
-			s.setPassword(60);
+			s.setPassword(12345);
 
 			cout << s.getPassword() << endl;
 			s.setProfile_Photo("https://getwallpapers.com/image/eyJpdiI6IjUweVoxcTRyWDd3S0kwK1h1Z2hYMmc9PSIsInZhbHVlIjoidG1saDZJZ1AzWVdnUStZckRIKzhSQT09IiwibWFjIjoiNzY2YjA5MTI4NTc3N2U5YmE0NjY0OTU1MGJlOTA1YzhkMmM1OGJiYTQ3ZDE3NTI1Mzg0ZDU5OGM2NWIxNjM1MyJ9");
 
+
+
 			cout << s.getProfile_Photo() << endl;
+
+			//Messaging j;
+			//cout << j.getcomments() << endl;
+			//j.setcomments("Hi Bilal");
+
 	}
 	
 else if (ans == 'N') {
@@ -51,6 +58,9 @@ cout << "Continue as a guest ";
 
 
 		}
+	Messaging j;
+	cout << j.getcomments() << endl;
+	j.setcomments("Hi Bilal");
 		
 	}
 
