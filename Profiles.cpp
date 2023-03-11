@@ -1,18 +1,18 @@
 
-#include"C:\Users\wdb21138\Documents\GitHub\Social-Media-Project/Profiles.h"
+#include"C:\Users\Dell\Documents\GitHub\Social-Media-Project/Profiles.h"
 using namespace std;
 #include<string>
 Profiles::Profiles() {}
 
 
 Profiles::~Profiles() {}
-<<<<<<< HEAD
+
 string Profiles::getname() { return name; }
 void Profiles::setname(string name) { this->name = name; }
-=======
+
 string Profiles::getName() { return name; }
 void Profiles::setName(string name) { this->name = name; }
->>>>>>> a2f0b87dc8a081d9ec41a241b7d4e4c98cc8224d
+
 string Profiles::getemail_address() { return email_address; }
 void  Profiles::setemail_address(string email_address) {this->email_address=email_address ; }
 string Profiles::getUser_name() { return user_name; }
