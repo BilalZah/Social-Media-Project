@@ -4,6 +4,7 @@
 using namespace std;
 class Subscription :public Profiles {
 public:
+<<<<<<< HEAD
 
 	Subscription();
 	~Subscription();
@@ -25,6 +26,20 @@ private:
 	double subscription_price;
 	int sort_code;
 	int account_Number;
+=======
+	Subscription();
+	~Subscription();
+	string getSortCode();
+	void setSortCode(string);
+	string getBankAccount();
+	void setBankAccount(string);
+	//bool withdraw(double);
+	double getbalance();
+	void setbalance(double);
+private:
+	string sortcode;
+	string bank_account;
+>>>>>>> a2f0b87dc8a081d9ec41a241b7d4e4c98cc8224d
 	double balance;
 	
 

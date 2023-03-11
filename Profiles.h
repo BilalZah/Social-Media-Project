@@ -2,19 +2,26 @@
 
 using namespace std;
 #include<string>
+<<<<<<< HEAD
 class Profiles {
 <<<<<<< Updated upstream
 	
+=======
+class Profiles{
+>>>>>>> a2f0b87dc8a081d9ec41a241b7d4e4c98cc8224d
 	
 public:
 	Profiles();
 	~Profiles();
+<<<<<<< HEAD
 	string getname();
 	void setname(string);
 =======
 public:
 	Profiles();
 		~Profiles();
+=======
+>>>>>>> a2f0b87dc8a081d9ec41a241b7d4e4c98cc8224d
 
 	string getName();
 	void setName(string);
@@ -35,11 +42,15 @@ public:
 	void setBio(string);
 	string getInterests();
 	void setInterests(string);
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       string  getProfile_Photo();
 =======
 	string getProfile_Photo();
 >>>>>>> Stashed changes
+=======
+	string getProfile_Photo();
+>>>>>>> a2f0b87dc8a081d9ec41a241b7d4e4c98cc8224d
 	void setProfile_Photo(string);
 
 
@@ -55,9 +66,13 @@ private:
 	int password;
 	string Bio;
 	string Interests;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 	string  Profile_Photo;
 =======
 	string Profile_Photo;
 >>>>>>> Stashed changes
+=======
+	string Profile_Photo;
+>>>>>>> a2f0b87dc8a081d9ec41a241b7d4e4c98cc8224d
 };
