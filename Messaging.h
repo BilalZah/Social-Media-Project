@@ -1,10 +1,16 @@
 #pragma once
 using namespace std; 
 #include<string>
+<<<<<<< Updated upstream
 #include"C:\Users\Dell\Documents\GitHub\Social-Media-Project /Profiles.h"
 #include"C:\Users\Dell\Documents\GitHub\Social-Media-Project /follow_list.h"
 class Messaging :public Profiles,public follow_list {
 public:
+=======
+class Messaging :public Profiles {
+public:
+
+>>>>>>> Stashed changes
 	Messaging();
 	~Messaging();
 	string getcomments();

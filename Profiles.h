@@ -3,6 +3,7 @@
 using namespace std;
 #include<string>
 class Profiles {
+<<<<<<< Updated upstream
 	
 	
 public:
@@ -10,6 +11,14 @@ public:
 	~Profiles();
 	string getname();
 	void setname(string);
+=======
+public:
+	Profiles();
+		~Profiles();
+
+	string getName();
+	void setName(string);
+>>>>>>> Stashed changes
 	string getemail_address();
 	void setemail_address(string);
 	string getUser_name();
@@ -26,7 +35,11 @@ public:
 	void setBio(string);
 	string getInterests();
 	void setInterests(string);
+<<<<<<< Updated upstream
       string  getProfile_Photo();
+=======
+	string getProfile_Photo();
+>>>>>>> Stashed changes
 	void setProfile_Photo(string);
 
 
@@ -42,5 +55,9 @@ private:
 	int password;
 	string Bio;
 	string Interests;
+<<<<<<< Updated upstream
 	string  Profile_Photo;
+=======
+	string Profile_Photo;
+>>>>>>> Stashed changes
 };
