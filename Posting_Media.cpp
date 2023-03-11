@@ -1,6 +1,6 @@
-#include "Profiles.h"
-#include "Posting_Media.h"
-#include "follow_list.h"
+#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project /Profiles.h"
+#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project /Posting_Media.h"
+#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project /follow_list.h"
 using namespace std;
 #include <string>
 Posting_Media::Posting_Media(){}

@@ -1,8 +1,12 @@
 #pragma once
-using namespace std;
+using namespace std; 
 #include<string>
+#include"C:\Users\Dell\Documents\GitHub\Social-Media-Project /Profiles.h"
+#include"C:\Users\Dell\Documents\GitHub\Social-Media-Project /follow_list.h"
 class Messaging :public Profiles,public follow_list {
 public:
+	Messaging();
+	~Messaging();
 	string getcomments();
 	void setcomments(string);
 	int getnumber_of_likes();

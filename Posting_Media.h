@@ -1,5 +1,6 @@
 #pragma once
 #include<string>
+#include"C:\Users\Dell\Documents\GitHub\Social-Media-Project/Profiles.h"
 using namespace std;
 class Posting_Media:public Profiles {
 public:
