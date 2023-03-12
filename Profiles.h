@@ -12,8 +12,7 @@ public:
 	Profiles();
 	~Profiles();
 
-	string getname();
-	void setname(string);
+
 
 	
 	string getName();
@@ -35,7 +34,8 @@ public:
 	void setBio(string);
 	string getInterests();
 	void setInterests(string);
-
+	string getPrivacy();
+	void setPrivacy(string);
     
 
 	string getProfile_Photo();
@@ -56,5 +56,5 @@ private:
 	string Interests;
 
 	string Profile_Photo;
-
+	string privacy;
 };

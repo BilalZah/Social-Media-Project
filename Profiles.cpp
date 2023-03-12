@@ -7,8 +7,6 @@ Profiles::Profiles() {}
 
 Profiles::~Profiles() {}
 
-string Profiles::getname() { return name; }
-void Profiles::setname(string name) { this->name = name; }
 
 string Profiles::getName() { return name; }
 void Profiles::setName(string name) { this->name = name; }
@@ -24,7 +22,8 @@ void  Profiles::setInterests(string Interests) { this->Interests = Interests; }
 string Profiles::getBio() { return Bio; }
 void  Profiles::setBio(string Bio) { this->Bio = Bio; }
 
-
+string Profiles::getPrivacy() { return privacy; }
+void  Profiles::setPrivacy(string privacy) { this->privacy = privacy; }
 
 
 string Profiles::getProfile_Photo() { return Profile_Photo; }

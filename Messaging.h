@@ -17,10 +17,10 @@ public:
 	void setcomment(string);
 	int getnumber_of_likes();
 	void setnumber_of_likes(int);
-	char getlike_button();
-	void setlike_button(char);
-	char getshare();
-	void setshare(char);
+	string getlike_button();
+	void setlike_button(string);
+	string getshare();
+	void setshare(string);
 
 	int getGroup_members();
 	void setGroup_members(int);
@@ -31,8 +31,8 @@ public:
 private:
 	string comment;
 	int number_of_likes;
-	char like_button;
-	char share;
+	string like_button;
+	string share;
 	int group_members;
 	string group_name;
 
