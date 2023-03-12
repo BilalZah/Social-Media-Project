@@ -1,20 +1,20 @@
 #pragma once
 using namespace std; 
 #include<string>
-<<<<<<< Updated upstream
-#include"C:\Users\Dell\Documents\GitHub\Social-Media-Project /Profiles.h"
-#include"C:\Users\Dell\Documents\GitHub\Social-Media-Project /follow_list.h"
-class Messaging :public Profiles,public follow_list {
-public:
-=======
+
+#include"C:\Users\Dell\Documents\GitHub\Social-Media-Project/Profiles.h"
+#include"C:\Users\Dell\Documents\GitHub\Social-Media-Project/follow_list.h"
+
+
+
 class Messaging :public Profiles {
 public:
 
->>>>>>> Stashed changes
+
 	Messaging();
 	~Messaging();
-	string getcomments();
-	void setcomments(string);
+	string getcomment();
+	void setcomment(string);
 	int getnumber_of_likes();
 	void setnumber_of_likes(int);
 	char getlike_button();
@@ -22,6 +22,10 @@ public:
 	char getshare();
 	void setshare(char);
 
+	int getGroup_members();
+	void setGroup_members(int);
+	string getGroup_name();
+	void setGroup_name(string);
 
 
 private:
@@ -29,4 +33,7 @@ private:
 	int number_of_likes;
 	char like_button;
 	char share;
+	int group_members;
+	string group_name;
+
 };
