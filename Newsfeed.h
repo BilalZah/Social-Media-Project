@@ -1,15 +1,22 @@
 #pragma once
-class Newsfeed :public Profiles, public follow_list, public search_function {
+#include <iostream>
+
+#include <string>
+using namespace std;
+class Newsfeed {
 public:
-    char get_share_to_follow_list();
-    void get_share_to_follow_list(char);
-
-
+  
+    Newsfeed() {}
+    ~Newsfeed() {}
+    string getPost_name();
+    void setPost_name(string);
+    string getPost();
+    void setPost(string);
 
 private:
-    char get_share_to_follow_list;
-
-
+ 
+    string post;
+    string post_name;
 
 
 };
