@@ -1,9 +1,9 @@
-#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project /Profiles.h"
-#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project /Posting_Media.h"
-#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project /follow_list.h"
+#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Profiles.h"
+#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Posting_Media.h"
+#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/follow_list.h"
 using namespace std;
 #include <string>
-Posting_Media::Posting_Media(){}
+Posting_Media::Posting_Media():Profiles() {}
 
 Posting_Media::~Posting_Media(){}
 int Posting_Media::getnum_likes(){return num_likes;}
