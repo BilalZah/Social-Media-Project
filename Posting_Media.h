@@ -14,9 +14,16 @@ public:
 	void setcomments(string);
 	string getcaption();
 	void setcaption(string);
+	string getpost();
+	void setPost(string);
+	int getnum_comments();
+	void setnum_comments(int);
 private:
+	string post;
 	int num_likes;
 	char share_to_follow_list;
 	string comments;
 	string caption;
+	int num_comments;
+
 };
