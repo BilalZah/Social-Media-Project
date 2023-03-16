@@ -1,11 +1,11 @@
 #pragma once
+#include<vector>
 #include<string>
-using namespace std;
-class Search_function :public Profiles, public follow_list {
-public:
-	string getInterests();
-	void setInterests(string);
 
-	private:
-		string interests;
-};
+using namespace std;
+
+
+
+
+
+

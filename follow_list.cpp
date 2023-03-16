@@ -3,7 +3,7 @@
 #include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/follow_list.h"
 using namespace std;
 #include<string>
-follow_list::follow_list() {}
+follow_list::follow_list():Profiles() {}
 
 follow_list::~follow_list() {}
 //string follow_list::getaccount() { return account; }
