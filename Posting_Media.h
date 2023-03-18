@@ -18,6 +18,9 @@ public:
 	void setPost(string);
 	int getnum_comments();
 	void setnum_comments(int);
+	string getlike_button();
+	void setlike_button(string);
+
 private:
 	string post;
 	int num_likes;
@@ -25,5 +28,6 @@ private:
 	string comments;
 	string caption;
 	int num_comments;
+	string like_button;
 
 };

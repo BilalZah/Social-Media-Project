@@ -14,7 +14,8 @@ char Posting_Media::getshare_to_follow_list() { return share_to_follow_list; }
 void Posting_Media::setshare_to_follow_list(char share_to_follow_list){this->share_to_follow_list = share_to_follow_list;}
 string Posting_Media::getcaption(){return caption;}
 void Posting_Media::setcaption(string caption){this->caption=caption;}
-
+string Posting_Media::getlike_button() { return like_button; }
+void  Posting_Media::setlike_button(string like_button) { this->like_button = like_button; }
 string Posting_Media::getpost() { return post; }
 void Posting_Media::setPost(string post) { this->post= post; }
 
