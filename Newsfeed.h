@@ -13,7 +13,7 @@ public:
     void addPost(const std::string& username, const std::string& content);
 
     // Public member function to retrieve all posts from the newsfeed
-    std::vector<std::string> getPosts();
+    vector<string> getPosts();
   
 private:
     vector<string> m_posts;
