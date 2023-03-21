@@ -4,7 +4,7 @@
 using namespace std;
 class Posting_Media:public Profiles {
 public:
-	Posting_Media() ;
+	Posting_Media();
 	~Posting_Media();
 	int getnum_likes();
 	void setnum_likes(int);

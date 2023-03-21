@@ -1,10 +1,10 @@
 #pragma once
 #include <iostream>
-#include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/follow_list.h"
+
 #include <string>
 #include<vector>
 using namespace std;
-class Newsfeed:public follow_list {
+class Newsfeed {
 public:
   
     Newsfeed();
