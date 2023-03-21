@@ -6,10 +6,7 @@ using namespace std;
 follow_list::follow_list():Profiles() {}
 
 follow_list::~follow_list() {}
-//string follow_list::getaccount() { return account; }
-//void  follow_list::setaccount(string account) { this->account = account; }
-//int follow_list::getsubscription_price() { return subscription_price; }
-//void  follow_list::setsubscription_price(int subscription_price) { this->subscription_price = subscription_price; }
+
 int follow_list::getnumber_followers() { return number_followers; }
 void  follow_list::setnumber_followers(int number_followers) { this->number_followers = number_followers; }
 

@@ -34,9 +34,7 @@ public:
 	void setBio(string);
 	string getInterests();
 	void setInterests(string);
-	string getPrivacy();
-	void setPrivacy(string);
-    
+	
 
 	string getProfile_Photo();
 	void setProfile_Photo(string);
@@ -56,5 +54,5 @@ private:
 	string Interests;
 
 	string Profile_Photo;
-	string privacy;
+	
 };

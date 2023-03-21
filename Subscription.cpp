@@ -16,11 +16,6 @@ int Subscription::getaccountNumber(){return account_Number;}
 void Subscription::setaccountNumber(int  account_Number){this->account_Number=account_Number;}
 
 
-//int Subscription::getSortCode(){return sort_code;}
-//void Subscription::setSortCode(int sortcode){this->sort_code=sortcode;}
-
-//string Subscription::getBankAccount(){return bank_account;}
-//void Subscription::setBankAccount(string bank_account){this->bank_account=bank_account;}
 
 double Subscription::getbalance(){return balance;}
 void Subscription::setbalance(double balance){this->balance=balance;}

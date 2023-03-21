@@ -22,8 +22,6 @@ void  Profiles::setInterests(string Interests) { this->Interests = Interests; }
 string Profiles::getBio() { return Bio; }
 void  Profiles::setBio(string Bio) { this->Bio = Bio; }
 
-string Profiles::getPrivacy() { return privacy; }
-void  Profiles::setPrivacy(string privacy) { this->privacy = privacy; }
 
 
 string Profiles::getProfile_Photo() { return Profile_Photo; }

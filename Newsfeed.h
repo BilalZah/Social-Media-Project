@@ -10,7 +10,7 @@ public:
     Newsfeed();
     ~Newsfeed();
     
-    void addPost(const std::string& username, const std::string& content);
+    void addPost(const string& username, const string& content);
 
     // Public member function to retrieve all posts from the newsfeed
     vector<string> getPosts();
