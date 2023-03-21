@@ -1,6 +1,9 @@
 #pragma once
 using namespace std;
 #include<string>
+#ifndef Search_function_H_
+
+#define Search_function_H_
 
 struct User {
 	string name;
@@ -31,7 +34,7 @@ vector<User> search_users(string query) {
 	return results;
 }
 
-
+#endif /* Search_function_H_*/
 
 
 
