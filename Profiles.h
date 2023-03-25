@@ -1,23 +1,14 @@
 #pragma once
-
 using namespace std;
 #include<string>
 
-	
-
 class Profiles{
-
-	
-public:
+  public:
 	Profiles();
 	~Profiles();
-
-
-
-	
+    
 	string getName();
 	void setName(string);
-
 	string getemail_address();
 	void setemail_address(string);
 	string getUser_name();
@@ -34,14 +25,8 @@ public:
 	void setBio(string);
 	string getInterests();
 	void setInterests(string);
-	
-
 	string getProfile_Photo();
 	void setProfile_Photo(string);
-
-
-
-
 private:
 	string name;
 	string email_address;
@@ -52,7 +37,5 @@ private:
 	int password;
 	string Bio;
 	string Interests;
-
 	string Profile_Photo;
-	
-};
+	};

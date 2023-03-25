@@ -1,6 +1,6 @@
 #pragma once
-
 #include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Profiles.h"
+
 class follow_list: public Profiles {
 public:
 	follow_list();
@@ -13,5 +13,4 @@ public:
 private:
 	int number_followers;
 	int number_following;
-	
-};
+	};
