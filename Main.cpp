@@ -307,7 +307,7 @@ int main() {
 		int num{ 0 };
 		char answer;
 
-		cout << "Do you want to follow Bilal (Y/N) ? " << endl;
+		cout << "Do you want to follow Ru (Y/N) ? " << endl;
 		cin >> answer;
 		if (answer == 'Y') {
 			do
@@ -321,62 +321,15 @@ int main() {
 		else if (answer == 'N') {
 			cout << "Exit page" << endl;
 		}
-
-
-
-		//else if (ans == 'N') {
-		//	cout << "Exit Social Media Platform " << endl;
 		
 	}
 	 else if (ans == 'N') {
 	cout << "Exit Social Media Platform " << endl;
 		}
 }
-	//else if (ans == 'N') {
-	//	cout << "Exit Social Media Platform " << endl;
-	//}
-
-	//else if (ans == 'N') {
-	//	cout << "Exit Social Media Platform " << endl;
-
-
-	//follow_list Ru_follow;
-	//Profiles Ru;
-	//cout << "Profile:";
-	//Ru.setUser_name("Ru");
-
-	//cout << Ru.getUser_name() << endl;// username
-	//cout << "Private Account" << endl;
-//	Ru_follow.setnumber_followers(100);
-	///cout << "Number followers:";
-	//cout << Ru_follow.getnumber_followers() << endl;// number of followers
-//	Ru_follow.setnumber_following(50);
-	//cout << "Number following:";
-	//cout << Ru_follow.getnumber_following() << endl;// number of following
-
-	// this code below shows when Ru has followed an account so his number following increased by one 
-	//int number_following{ 50 };
-//	int num{ 0 };
-	//char answer;
-
-//	cout << "Do you want to follow Bilal (Y/N) ? " << endl;
-//	cin >> answer;
-//	if (answer == 'Y') {
-		//do
-		//{
-		//	number_following++;
-		//	cout << "Number following:" << number_following;
-		//} while (number_following < 1);
-	//}
-
-	//else if (answer == 'N') {
-	//	cout << "Exit page" << endl;
-	//}
-
-	//else if (ans == 'N') {
-	//	cout << "Exit Social Media Platform " << endl;
-	//}
-	//}
+	
+	
+	
 
 		
 
