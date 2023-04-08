@@ -9,9 +9,11 @@
 #include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Posting_Media.h"
 #include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Newsfeed.h"
 #include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Search_function.h"
+#include<cstdlib>
 using namespace std;
 
 int main() {
+
 	string User_name;
 	char ans;
 	string email_address;
@@ -48,6 +50,10 @@ int main() {
 		adam_profile.setProfile_Photo("https://getwallpapers.com/image/eyJpdiI6IjUweVoxcTRyWDd3S0kwK1h1Z2hYMmc9PSIsInZhbHVlIjoidG1saDZJZ1AzWVdnUStZckRIKzhSQT09IiwibWFjIjoiNzY2YjA5MTI4NTc3N2U5YmE0NjY0OTU1MGJlOTA1YzhkMmM1OGJiYTQ3ZDE3NTI1Mzg0ZDU5OGM2NWIxNjM1MyJ9");
 		cout << User_name << " Public " << " Profile Photo" << endl;
 		cout << adam_profile.getProfile_Photo() << endl;//Profile photo
+		{
+
+			system("Ronaldo.jpg");
+		}
 		adam_profile.setnumber_followers(200);
 		cout << "Number followers:";
 		cout << adam_profile.getnumber_followers() << endl;// number of folloers
@@ -65,20 +71,91 @@ int main() {
 		Adam.setcaption("Messi");
 		cout << "Caption:";
 		cout << Adam.getcaption() << endl;//Caption
+
+		{
+			system("Messi.jpg");
+		}
 		Adam.setPost("https://sharondurs2000.blogspot.com/2021/08/leo-messi-leo-messis-most-famous-goal.html");
 		cout << Adam.getpost() << endl;//Post link
 		Adam.setlike_button("http://clipart-library.com/clip-art/facebook-like-icon-transparent-19.htm");
 		cout << Adam.getlike_button() << endl;//like button
+		{
+			system("like_button.jpg");
+		}
 		Adam.setnum_likes(20);
 		cout << "num_likes:";
 		cout << Adam.getnum_likes() << endl;// Number of likes
 		Adam.setnum_comments(2);
-		cout << "Comments:";
-		cout << Adam.getnum_comments() << endl;//Number of comments
-		Adam.setcomments("The goat");
-		cout << Adam.getcomments() << endl;// comments
-		Adam.setcomments("Nice picture man");
-		cout << Adam.getcomments() << endl;//comments
+		//cout << "Comments:";
+		string comment{ "" };
+		getline(cin, comment);
+		cout << "comment:" << "";
+		getline(cin, comment);
+		cout << "comment:" << "";
+		getline(cin, comment);
+		// Another user created 
+		Profiles Yousef_profile;
+		follow_list yousef_profile;
+
+		cout << "User_ name:";
+		cin >> User_name;
+		cout << "Email address:";
+		cin >> email_address;
+		cout << "dob_day:";
+		cin >> dob_day;
+		cout << "dob_month:";
+		cin >> dob_month;
+		cout << "dob_year:";
+		cin >> dob_year;
+		cout << "Password:";
+		cin >> password;
+
+
+
+
+		cout << User_name << " Private Account " << endl;
+		yousef_profile.setnumber_followers(300);
+		cout << "Number followers:";
+		cout << yousef_profile.getnumber_followers() << endl;// number of folloers
+		yousef_profile.setnumber_following(10);
+		cout << "Number following:";
+		cout << yousef_profile.getnumber_following() << endl;// number of following
+		Yousef_profile.setInterests("Interests: Football , Gaming");
+		cout << Yousef_profile.getInterests() << endl;//Interests
+
+
+		Profiles Salah_profile;
+		follow_list salah_profile;
+
+		cout << "User_ name:";
+		cin >> User_name;
+		cout << "Email address:";
+		cin >> email_address;
+		cout << "dob_day:";
+		cin >> dob_day;
+		cout << "dob_month:";
+		cin >> dob_month;
+		cout << "dob_year:";
+		cin >> dob_year;
+		cout << "Password:";
+		cin >> password;
+
+
+		cout << User_name << " Public Account " << endl;
+		Salah_profile.setProfile_Photo("https://www.sportingnews.com/ca/soccer/news/mohamed-salah-chases-new-premier-league-record/yoc4hk59r6pk12fo2ccleev8j");
+		cout << "Profile Photo:";
+		cout << Salah_profile.getProfile_Photo() << endl;
+		salah_profile.setnumber_followers(400);
+		cout << "Number followers:";
+		cout << yousef_profile.getnumber_followers() << endl;// number of folloers
+		salah_profile.setnumber_following(10);
+		cout << "Number following:";
+		cout << salah_profile.getnumber_following() << endl;// number of following
+
+		Salah_profile.setInterests("Interests: Football , Gym");
+		cout << Salah_profile.getInterests() << endl;//Interests
+
+
 
 		Newsfeed feed;
 		cout << "Newsfeed" << endl;
@@ -115,9 +192,14 @@ int main() {
 		follow_list bilal_follow;
 
 		bilal.setUser_name("Bilal");
-		cout << bilal.getUser_name() << endl; cout << " Public Account" << endl;//User name and Public account
+		cout << bilal.getUser_name() << endl; cout << "Public Account" << endl;//User name and Public account
 		bilal.setProfile_Photo("https://wallpapercave.com/gym-equipment-wallpapers");
 		cout << bilal.getProfile_Photo() << endl;//Profile photo
+		{
+
+			system("gym.jpg");
+		}
+
 		bilal_follow.setnumber_followers(3000);
 		cout << "Number_followers:";
 		cout << bilal_follow.getnumber_followers() << endl;// number of followers
@@ -154,75 +236,148 @@ int main() {
 			else {
 				cout << "no funds" << endl;
 			}
+		}
+		else if (ans == 'N') {
+			cout << "Exit page" << endl;
+		}
+		Messaging z;
+		follow_list talal_follow;
+		z.setUser_name("talal");
 
-			Messaging z;
-			follow_list talal_follow;
-z.setUser_name("talal");
-talal_follow.setnumber_followers(100);
-cout << "Number follwers";
-cout << talal_follow.getnumber_following() << endl;// number of following
-talal_follow.setnumber_followers(200);
-cout << "Number Followers:";
-cout << talal_follow.getnumber_followers() << endl;// number of followers
-cout << "Private Account";
-cout << z.getUser_name() << endl;// User name
-z.setProfile_Photo("https://wall.alphacoders.com/big.php?i=990125");
-cout << z.getProfile_Photo() << endl;//Profile photo
-           
-           z.setGroup_name("Year 2 EEE");
-			cout << "Group name:";
-			cout << z.getGroup_name() << endl;// group name
-			z.setGroup_members(10);
-			cout << "Group members:";
-			cout << z.getGroup_members() << endl;//group members
-			
-	         // comments in group 
-			string comment{ "" };
-			getline(cin, comment);
-			cout << "comment:" << "";
-			getline(cin, comment);
-			cout << "comment:" << "";
-			getline(cin, comment);
-			cout << "comment:" << "";
-			getline(cin, comment);
-z.setlike_button("http://clipart-library.com/clip-art/facebook-like-icon-transparent-19.htm");
-cout << z.getlike_button() << endl;//like button 
-z.setnumber_of_likes(9);
-cout << "number of likes:";
-cout << z.getnumber_of_likes() << endl;// number of likes to last comment in the chat
-z.setshare("http://www.picswalls.com/pic/nature-wallpapers/");
-cout << "Shared iamge:";
-cout << z.getshare() << endl;//shared image in group chat
-       }
+		cout << z.getUser_name();// User name
+		cout << " Private Account" << endl;
+		z.setProfile_Photo("https://wall.alphacoders.com/big.php?i=990125");
+		cout << z.getProfile_Photo() << endl;//Profile photo
+		{
+			system("salah.jpg");
+		}
+		talal_follow.setnumber_followers(100);
+		cout << "Number followers:";
+		cout << talal_follow.getnumber_followers() << endl;// number of following
+		talal_follow.setnumber_following(10);
+		cout << "Number Following:";
+		cout << talal_follow.getnumber_following() << endl;// number of followers
+
+		z.setGroup_name("Year 2 EEE");
+		cout << "Group name:";
+		cout << z.getGroup_name() << endl;// group name
+		z.setGroup_members(10);
+		cout << "Group members:";
+		cout << z.getGroup_members() << endl;//group members
+
+		 // comments in group 
+		string comments{ "" };
+		getline(cin, comments);
+		cout << "comment:" << "";
+		getline(cin, comments);
+		cout << "comment:" << "";
+		getline(cin, comments);
+		cout << "comment:" << "";
+		getline(cin, comments);
+		z.setlike_button("http://clipart-library.com/clip-art/facebook-like-icon-transparent-19.htm");
+		cout << z.getlike_button() << endl;//like button
+		{
+			system("like_button.jpg");
+		}
+		z.setnumber_of_likes(9);
+		cout << "number of likes:";
+		cout << z.getnumber_of_likes() << endl;// number of likes to last comment in the chat
+		z.setshare("https://www.msn.com/en-ca/sports/soccer/barcelona-2-1-real-madrid-player-ratings-as-barca-take-12-point-lead-in-la-liga/ar-AA18PoX2");
+		cout << "Shared iamge:";
+		cout << z.getshare() << endl;//shared image in group chat
+		{
+			system("barca_win.jpg");
+		}
+		follow_list Ru_follow;
+		Profiles Ru;
+		cout << "Profile:";
+		Ru.setUser_name("Ru");
+
+		cout << Ru.getUser_name() << endl;// username
+		cout << "Private Account" << endl;
+		Ru_follow.setnumber_followers(100);
+		cout << "Number followers:";
+		cout << Ru_follow.getnumber_followers() << endl;// number of followers
+		Ru_follow.setnumber_following(50);
+		cout << "Number following:";
+		cout << Ru_follow.getnumber_following() << endl;// number of following
+
+		// this code below shows when Ru has followed an account so his number following increased by one 
+		int number_following{ 50 };
+		int num{ 0 };
+		char answer;
+
+		cout << "Do you want to follow Bilal (Y/N) ? " << endl;
+		cin >> answer;
+		if (answer == 'Y') {
+			do
+			{
+				number_following++;
+
+				cout << "Number following:" << number_following;
+			} while (number_following < 1);
+		}
+
+		else if (answer == 'N') {
+			cout << "Exit page" << endl;
+		}
+
+
+
+		//else if (ans == 'N') {
+		//	cout << "Exit Social Media Platform " << endl;
+		
 	}
- else if (ans == 'N') {
-		cout << "Exit Social Media Platform " << endl;
+	 else if (ans == 'N') {
+	cout << "Exit Social Media Platform " << endl;
+		}
 }
+	//else if (ans == 'N') {
+	//	cout << "Exit Social Media Platform " << endl;
+	//}
 
- follow_list Ru_follow;
-Profiles Ru;
-cout << "Profile:" << endl;
-Ru.setUser_name("Ru");
-
-cout << Ru.getUser_name() << endl;// username
-cout << "Private Account" << endl;
-Ru_follow.setnumber_followers(100);
-cout << "Number followers:";
-cout << Ru_follow.getnumber_followers() << endl;// number of followers
-Ru_follow.setnumber_following(50);
-cout << "Number following:";
-cout << Ru_follow.getnumber_following() << endl;// number of following
-
-// this code below shows when Ru has followed an account so his number following increased by one 
-int number_following{ 50 };
-int num{ 0 };
-	do
-	{
-	 number_following++;
-		cout<<"Number following:" << number_following;
-	} while (number_following < 1);
-}
+	//else if (ans == 'N') {
+	//	cout << "Exit Social Media Platform " << endl;
 
 
+	//follow_list Ru_follow;
+	//Profiles Ru;
+	//cout << "Profile:";
+	//Ru.setUser_name("Ru");
+
+	//cout << Ru.getUser_name() << endl;// username
+	//cout << "Private Account" << endl;
+//	Ru_follow.setnumber_followers(100);
+	///cout << "Number followers:";
+	//cout << Ru_follow.getnumber_followers() << endl;// number of followers
+//	Ru_follow.setnumber_following(50);
+	//cout << "Number following:";
+	//cout << Ru_follow.getnumber_following() << endl;// number of following
+
+	// this code below shows when Ru has followed an account so his number following increased by one 
+	//int number_following{ 50 };
+//	int num{ 0 };
+	//char answer;
+
+//	cout << "Do you want to follow Bilal (Y/N) ? " << endl;
+//	cin >> answer;
+//	if (answer == 'Y') {
+		//do
+		//{
+		//	number_following++;
+		//	cout << "Number following:" << number_following;
+		//} while (number_following < 1);
+	//}
+
+	//else if (answer == 'N') {
+	//	cout << "Exit page" << endl;
+	//}
+
+	//else if (ans == 'N') {
+	//	cout << "Exit Social Media Platform " << endl;
+	//}
+	//}
+
+		
 
 	
