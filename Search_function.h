@@ -10,11 +10,11 @@ struct User {
 
 };// structure that contains users name, location, interests and username.
 vector<User> users = {
-			{"Ahmed Ali", "Ali", "Glasgow", "Gym"},
-			{"Cristiano Ronaldo", "Ronaldo", "Riyadh", "Football"},
-			{"Mona Ahmed", "Mona", "Vancouver", "Food"},
-			{"Elon Musk", "Elon", "Texas", "Space"},
-			{"UN", "UN", "New York", "Health "},
+			{"Ahmed Ali", "Ali", "Glasgow", "Gym,Football"},
+			{"Cristiano Ronaldo", "Ronaldo", "Riyadh", "Football,Gym"},
+			{"Mona Ahmed", "Mona", "Vancouver", "Food,Yoga"},
+			{"Elon Musk", "Elon", "Texas", "Space,Tesla"},
+			{"UN", "UN", "New York", "Health,Education "},
 
 };// vector of User which contains the data for each user
 vector<User> search_users(string query) {
