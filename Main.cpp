@@ -193,6 +193,7 @@ int main() {
 
 		bilal.setUser_name("Bilal");
 		cout << bilal.getUser_name() << endl; cout << "Public Account" << endl;//User name and Public account
+		cout << "Profile Photo:";
 		bilal.setProfile_Photo("https://wallpapercave.com/gym-equipment-wallpapers");
 		cout << bilal.getProfile_Photo() << endl;//Profile photo
 		{
@@ -247,6 +248,7 @@ int main() {
 		cout << z.getUser_name();// User name
 		cout << " Private Account" << endl;
 		z.setProfile_Photo("https://wall.alphacoders.com/big.php?i=990125");
+		cout << "Profile Photo:";
 		cout << z.getProfile_Photo() << endl;//Profile photo
 		{
 			system("salah.jpg");
@@ -264,15 +266,15 @@ int main() {
 		z.setGroup_members(10);
 		cout << "Group members:";
 		cout << z.getGroup_members() << endl;//group members
-
+		
 		 // comments in group 
 		string comments{ "" };
 		getline(cin, comments);
-		cout << "comment:" << "";
+		cout<<"Adam " << "comment:" << "";
 		getline(cin, comments);
-		cout << "comment:" << "";
+		cout<<"Adam " << "comment:" << "";
 		getline(cin, comments);
-		cout << "comment:" << "";
+		cout<<"Bilal " << "comment:" << "";
 		getline(cin, comments);
 		z.setlike_button("http://clipart-library.com/clip-art/facebook-like-icon-transparent-19.htm");
 		cout << z.getlike_button() << endl;//like button
