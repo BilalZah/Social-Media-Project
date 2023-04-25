@@ -8,15 +8,17 @@ struct User {
 	string location;
 	string Interests;
 	string following;
-
+	string number_following;
+	string number_followers;
+	
 
 };// structure that contains users name, location, interests and username.
 vector<User> users = {
-			{"Ahmed Ali", "Ali", "Glasgow", "Gym,Football","Following"},
-			{"Cristiano Ronaldo", "Ronaldo", "Riyadh", "Football,Gym","Following"},
-			{"Mona Ahmed", "Mona", "Vancouver", "Food,Yoga","Following"},
-			{"Elon Musk", "Elon", "Texas", "Space,Tesla","Following"},
-			{"UN", "UN", "New York", "Health,Education "},
+			{"Ahmed Ali", "Ali", "Glasgow", "Gym,Football","Following",to_string(100),to_string(60)},
+			{"Cristiano Ronaldo", "Ronaldo", "Riyadh", "Football,Gym","Following",to_string(40),to_string(1000000)},
+			{"Mona Ahmed", "Mona", "Vancouver", "Food,Yoga","Following",to_string(300),to_string(250)},
+			{"Elon Musk", "Elon", "Texas", "Space,Tesla","Following",to_string(200),to_string(200000)},
+			{"UN", "UN", "New York", "Health,Education ",to_string(20),to_string(3000)},
 
 };// vector of User which contains the data for each user
 vector<User> search_users(string query) {
@@ -28,6 +30,8 @@ for (User user : users) {//using for loop checks each User object in the collect
 			user.username.find(query) != string::npos ||
 			user.following.find(query) != string::npos ||
 			user.Interests.find(query) != string::npos ||
+			user.number_followers.find(query) != string::npos ||
+			user.number_following.find(query) != string::npos||
             user.location.find(query) != string::npos) {
 			results.push_back(user);
 		}
