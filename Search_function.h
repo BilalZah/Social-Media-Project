@@ -25,7 +25,7 @@ vector<User> search_users(string query) {
 	vector<User> results; //vector of User that stores results
 	//string::npos is static member of string that represents maximum value of element.
 for (User user : users) {//using for loop checks each User object in the collection whether containg query string.
-// by calling find function 
+	// Query string which values in vector<User> users.
 		if (user.name.find(query) != string::npos ||
 			user.username.find(query) != string::npos ||
 			user.following.find(query) != string::npos ||
