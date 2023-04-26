@@ -10,6 +10,7 @@
 #include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Newsfeed.h"
 #include "C:\Users\Dell\Documents\GitHub\Social-Media-Project/Search_function.h"
 #include<cstdlib>
+
 using namespace std;
 
 int main() {
@@ -164,6 +165,7 @@ int main() {
 		feed.addPost("BBC NEWS", "https://www.bbc.co.uk/news/av/uk-48811952");//Newsfeed post 3
 		vector<string> posts = feed.getPosts();
 		for (string post : posts) {
+
 			cout << post << endl;
 			cout << " following" << endl;
 		}
@@ -183,6 +185,9 @@ int main() {
 				cout << "Username: " << user.username << endl;
 				cout << "Location: " << user.location << endl;
 				cout << "Interests: " << user.Interests << endl;
+				cout << "Number of following: " << user.number_following << endl;
+				cout << "Number of followers: " << user.number_followers << endl;
+				cout << "" << user.following << endl;
 				cout << endl;
 			}
 		}
